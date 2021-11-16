@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+.titulo{
+    color: rgb(255, 94, 0);
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo::before{
+    content: "😊"
+}
+
+.error{
+    background-color: rgb(183, 233, 19);
+    color: rgb(194, 80, 194);
+}
